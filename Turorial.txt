@@ -1,0 +1,25 @@
+Lập trình
+    Lập trình cơ bản
+    Lập trình hướng đối tượng
+    Cơ sở dữ liệu
+    
+    
+Tư duy
+    Cấu trúc dữ liệu và thuật toán - Toán rời rạc 
+        Stack
+        Queue
+        HashMap
+        BinaryTree
+    Kỹ thuật lập trình
+    
+Phần mềm
+    Công nghệ phần mềm
+    Phân tích thiết kế hệ thống
+
+
+Học Công cụ
+    Mô hình 
+    FrameWork : java spring .PHP
+    HTML CSS front-end
+
+

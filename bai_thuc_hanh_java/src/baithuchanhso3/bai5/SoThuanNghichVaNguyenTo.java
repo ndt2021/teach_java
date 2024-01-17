@@ -12,29 +12,29 @@ public class SoThuanNghichVaNguyenTo {
     }
 
     public static boolean laSoThuanNghich(int n) {
-        int reverse = 0;
+        int reverse = 0; // 12321
         int original = n;
-
+// 123  321    123%10  3    123/10  = 12    12%10   2    1   0
+        //  0+3  = 3  => 30+2 =32   320+1 321
         while (n > 0) {
-            int digit = n % 10;
-            reverse = reverse * 10 + digit;
-            n /= 10;
+            int digit = n % 10;  // digit để lưu trữ phần dư
+            reverse = reverse * 10 + digit;  //30+2 =32
+            n /= 10;  // n = n/10
         }
 
-        return original == reverse;
+        return original == reverse; //   123/10  = 12
     }
 
     public static boolean laSoNguyenTo(int n) {
         if (n < 2) {
             return false;
         }
-
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
             }
         }
-
         return true;
     }
+
 }

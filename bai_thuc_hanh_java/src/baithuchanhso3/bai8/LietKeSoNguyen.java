@@ -27,8 +27,8 @@ public class LietKeSoNguyen {
 
     // Phương thức kiểm tra xem một số có phải là số thuận nghịch hay không
     private static boolean kiemTraSoThuanNghich(int num) {
-        String strNum = String.valueOf(num);
-        String reverseStrNum = new StringBuilder(strNum).reverse().toString();
+        String strNum = String.valueOf(num);  // int 123=> String "123"
+        String reverseStrNum = new StringBuilder(strNum).reverse().toString(); // String builder "123" => Stringbuilder "321" => string
         return strNum.equals(reverseStrNum);
     }
 

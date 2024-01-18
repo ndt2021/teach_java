@@ -4,7 +4,7 @@ public class KhaiBaoBien {
     public static void main(String[] args) {
 //        var age = 20; // biến age kiểu int, nhận giá trị ban đầu là 20
 //        var pi = 3.14; // biến pi có kiểu dữ liệu là double với giá trị ban đầu là 3.14
-//        var letter = 'A'; // biến letter có kiểu dữ liệu là char, giá trị ban đầu là kí tự A hoa.
+        var letter = 'A'; // biến letter có kiểu dữ liệu là char, giá trị ban đầu là kí tự A hoa.
 
         int age; // tuổi
         float avgGrade; // điểm TB
@@ -16,6 +16,13 @@ public class KhaiBaoBien {
 //        int 5year; // tên bắt đầu bởi số
 //        float my bonus; // trong tên có dấu cách
 //        double max-volume; // trong tên có dấu -
+
+        final double PI = 3.141592653589793; // số PI
+        final int MAX_VALUE;
+        MAX_VALUE = 100; // gán giá trị 100 cho hằng số MAX_VALUE
+    //    MAX_VALUE = 500; // error! giá trị của hằng số không thể thay đổi
+
+
 
     }
 }

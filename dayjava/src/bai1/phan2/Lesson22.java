@@ -1,6 +1,6 @@
 package bai1.phan2;
 
-public class Lesson2 {
+public class Lesson22 {
     public static void main(String[] args) {
         System.out.println("Giá trị tối đa kiểu int: " + Integer.MAX_VALUE);
         System.out.println("Giá trị tối thiểu kiểu int: " + Integer.MIN_VALUE);
@@ -20,6 +20,6 @@ public class Lesson2 {
         System.out.println("Kích thước của kiểu long: " + Long.SIZE + "bits");
         System.out.println("Kích thước của kiểu float: " + Float.SIZE + "bits");
         System.out.println("Kích thước của kiểu double: " + Double.SIZE + "bits");
-        
+
     }
 }

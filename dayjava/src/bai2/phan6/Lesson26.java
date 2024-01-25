@@ -31,7 +31,7 @@ public class Lesson26 {
         System.out.println(fullName);*/
 
         // một số kí tự đặc biệt
-        var someMessage = "Xin chào bạn 'Hương'";
+    /*    var someMessage = "Xin chào bạn 'Hương'";
         System.out.println(someMessage);
         someMessage = "Xin chào bạn \"Hương\"";
         System.out.println(someMessage);
@@ -44,12 +44,36 @@ public class Lesson26 {
 //        message = STR."Welcome\{tab}to\{tab}Branium\{tab}Academy!";
 //        System.out.println(message);
 
-        var path = "";
+        var path = "C:\\Program Files (x86)\\Microsoft SQL Server";
         System.out.println(path);
+*/
 
+       /* int A =200;
+        int B =600;
+        String result = "A+B = " + (A + B);
+        System.out.println(result);// "nguyen duc tu"
+*/
+
+        var fullName = "Nguyễn Đức Tú";
+        System.out.println("do dai cua chuoi fullName: "+ fullName.length());
+        System.out.println("Viet Hoa "+ fullName.toUpperCase());
+        System.out.println("vi tri" + fullName.indexOf('u'));
+        System.out.println("vi tri String"+ fullName.indexOf("gu"));
+        System.out.println(fullName.charAt(4));
+        String newFullName = fullName.replace('u','h');
+        System.out.println(newFullName);
+
+        var message = "           Phong Vân         ";
+        System.out.println("Sau khi loại bỏ khoảng trắng thừa:" + message.trim());
+        var words = fullName.split("\\s+");
+        System.out.println("Số từ trong tên: "+ words.length);
+
+        String nam = "Nam";
+        String other = "nam";
+        System.out.println(nam.compareTo(other));
+        System.out.println(nam.compareToIgnoreCase(other));
 
 
 
     }
-
 }

@@ -1,6 +1,5 @@
-package bai1.phan3;
+package bai2.phan3;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Lesson23 {
@@ -16,11 +15,15 @@ public class Lesson23 {
 
         // hiển thị ra màn hình:
         System.out.println("Họ và tên" + fullName);
-        System.out.printf("Họ và tên: %-30s\n", fullName);
-        System.out.printf("Điểm GPA: %-10.2f\n", gpa);
-        // định dạng giá trị số phân tách bởi dấu phẩy ở phần nghìn, lẻ thập phân
-        var formatter = new DecimalFormat("#,###.##");
-        System.out.printf("Mức lương: %sđ\n", formatter.format(salary));
+        System.out.println("Điểm GPA: " + gpa);
+        System.out.println("Mức lương" + salary);
+
+
+//        System.out.printf("Họ và tên: %-30s\n", fullName);
+//        System.out.printf("Điểm GPA: %-10.2f\n", gpa);
+//        // định dạng giá trị số phân tách bởi dấu phẩy ở phần nghìn, lẻ thập phân
+//        var formatter = new DecimalFormat("#,###.##");
+//        System.out.printf("Mức lương: %sđ\n", formatter.format(salary));
 
     }
 }

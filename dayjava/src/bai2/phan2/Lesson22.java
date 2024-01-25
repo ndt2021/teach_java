@@ -1,4 +1,4 @@
-package bai1.phan2;
+package bai2.phan2;
 
 public class Lesson22 {
     public static void main(String[] args) {

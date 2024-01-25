@@ -1,8 +1,10 @@
 # teach_java
- chứa tài liệu dạy học java , dạy java
+ chứa tài liệu dạy học java , dạy java Nhật, Đức
  
-#Java_tutorial_begginer
+# Java_tutorial_begginer
 code các buổi học của quân
 
-#baithuchanh
+# baithuchanh
 code bài tập thực hành
+Quân xem code bài tập ở đây nhé
+

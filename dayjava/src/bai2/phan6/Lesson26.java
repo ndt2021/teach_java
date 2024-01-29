@@ -2,6 +2,8 @@ package bai2.phan6;
 
 import java.util.Locale;
 
+import static java.lang.StringTemplate.STR;
+
 public class Lesson26 {
     public static void main(String[] args) {
       /*  String fullName = "Lê Nguyễn Bảo Ngọc";
@@ -17,18 +19,20 @@ public class Lesson26 {
         System.out.println(s);
 */
 
-/*        var first = "Tú";
+/*
+        var first = "Tú";
         var last = "Nguyễn";
         var middle = "Đức";
         // cách 1: dùng toán tử +
         var fullName = last + " " + middle + " " + first;
         System.out.println(fullName);
         // cách 2: sử dụng string template
-//        fullName = STR."\{last} \{middle} \{first}";
-//        System.out.println(fullName);
+        fullName = STR."\{last} \{middle} \{first}";
+        System.out.println(fullName);
         // cách 3: sử dụng phương thức nối chuỗi
         fullName = last.concat(" ").concat(middle).concat(" ").concat(first);
-        System.out.println(fullName);*/
+        System.out.println(fullName);
+*/
 
         // một số kí tự đặc biệt
     /*    var someMessage = "Xin chào bạn 'Hương'";

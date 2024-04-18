@@ -9,7 +9,7 @@ public class Cat{
     private String favoriteFood;
 
     // constructor
-
+// overload constructor
     public Cat(String name) {
         this.name = name;
     }
@@ -32,6 +32,7 @@ public class Cat{
         this.color = color;
         this.favoriteFood = favoriteFood;
     }
+
 
     public void keu(){
         System.out.println("meo meo");
